@@ -24,4 +24,4 @@ Next, modify the configuration in `build_scripts/config.py`. The most important 
 
 After that, run `scons toolchain`, this should download and build the required tools (binutils and GCC). If you encounter errors during this step, you might have to modify `scripts/setup_toolchain.sh` and try a different version of **binutils** and **gcc**. Using the same version as the one bundled with your distribution is your best bet.
 
-Finally, you should be able to run `scons`. Use `scons run` to test your OS using qemu.
+Finally, you should be able to run `scons`. Use `scons run` to test the OS using qemu.
